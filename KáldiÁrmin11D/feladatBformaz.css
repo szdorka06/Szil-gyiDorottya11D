@@ -1,0 +1,70 @@
+/*a weboldal egészére vonatkozó háttér és betűszín*/
+body{
+    background-color: #6E6E6E;
+    color: #ffffff;
+}
+
+/* a linkek színének beállítása*/
+body a{
+    color: #FF5A09;
+}
+
+
+/*táblázat beállítása*/
+table{
+    width: 1000px;
+    margin: auto;
+    background-color: #FFFFFF;
+    border: none;
+    border-spacing: 5px;
+}
+
+/* a html-ben használt cellspacing helyett alkalmazott beállítás*/
+td{
+    padding: 5px;
+}
+
+/* a fejlecben található logo és cím beállításai*/
+.fejlec{
+    vertical-align: middle;
+    background-color: #F3843E;
+    width: 50%;
+}
+
+/* a hol szabad és hol tilos kerékpározni részek beállításai*/
+.szabadtilos{
+    width: 50%;
+    vertical-align: top;
+    background-color: #393939;
+}
+
+/* a kotelezo.png kép elhelyezkedésének beállítása*/
+#kotelezokep{
+    float: right;
+}
+
+
+/*a felsorolásokat tartalmazó cella beállításai*/
+#elotttd{
+    vertical-align: top;
+    background-color: #393939;
+}
+
+/* a szöveget középre igazítja*/
+.center{
+    text-align: center;
+}
+
+/* a jobbra mutató nyíl beállítása*/
+#jobbnyil{
+    height: 50px;
+    float: right;
+    padding: 17px;
+}
+
+/* a balra mutató nyíl beállítása*/
+#balnyil{
+    height: 50px;
+    float: left;
+    padding: 17px;
+}
